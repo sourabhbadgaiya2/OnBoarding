@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+
+    background-color: #111421;
+    gap: 1vw;
+    color: white;
+    padding: 5%;
+}
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #171B29;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    padding: 2% 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.circle {
+    border: 1px solid hsla(0, 0%, 87%, 0.5);
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.blue {
+    background-color: #566DF3;
+    color: white;
+    border: none;
+}
+
+img {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.top {
+    margin-top: 2vw;
+    text-align: center;
+
+}
+
+.aws {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #566DF3;
+    width: 400px;
+    margin: 1.5% 0;
+    padding: 6px 10px;
+    line-height: 2vw;
+    border-radius: 10px;
+}
+
+.azure {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #566DF3;
+    width: 400px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    margin-bottom: 3vw;
+    line-height: 2vw;
+}
+
+.aws p {
+    margin-right: 25%;
+}
+
+.azure p {
+    margin-right: 25%;
+}
+
+.opacity {
+    opacity: .5;
+}
+
+button {
+    padding: 10px 150px;
+    background-color: #566DF3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.aws i {
+    color: #566DF3;
+    font-size: 10px;
+    padding: 1px 8px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+.azure i {
+    /* color: #566DF3; */
+    font-size: 13px;
+    padding: 1px 8px;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    opacity: .5;
+}
+.top p{
+    font-size: 13px;
+    margin-top: 1%;
+}
